@@ -7,37 +7,6 @@ body {
 	color: #000;
 }
 
-/* navigation */
-.nav {
-    position: fixed;
-    bottom: 10px;
-    right: 20px;
-	  text-align: right;
-
-  }
-
-/* Style the links inside the navigation bar */
-.nav a {
-
-  text-decoration: none;
-  font-size: 16px;
-	padding:20px;
-font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
-  text-align: right;
-}
-
-/* Change the color of links on hover */
-.nav a:hover {
-  color: #FFFFFF;
-}
-
-/* Add a color to the active/current link */
-.nav a.active {
-	text-decoration: italic;
-	color: #FF760E;;
-}
-
 /*gen styles*/
 a {
 	font-size: 16px;
@@ -80,6 +49,34 @@ div.main {
 	width: 590px;
 	margin: auto;
 }
+/* navigation */
+.nav {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+	  text-align: right;
+
+  }
+
+.nav a {
+
+  text-decoration: none;
+  font-size: 16px;
+	padding:20px;
+font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+  text-align: right;
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+  color: #FFFFFF;
+}
+
+.nav a:active {
+	text-decoration: italic;
+	color: #FF760E;;
+}
 
 /* work menu */
 .werk {
@@ -106,7 +103,7 @@ font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 /* Add a color to the active/current link */
-.werk a.active {
+.werk a:active {
 	text-decoration: none;
 	color: #FF760E;;
 }
