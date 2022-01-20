@@ -45,5 +45,6 @@ img {
 }
 
 div.squeeze {
-	width 600px
+	width: 590px;
+	margin: auto
 }
