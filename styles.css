@@ -12,16 +12,17 @@ body {
     position: fixed;
     bottom: 0;
     right: 0;
-	  float: left;
-  text-align: left;
+
   }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  padding: 14px 16px;
+  padding: 30px 40px;
   text-decoration: none;
   font-size: 18px;
 font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif
+		  float: left;
+  text-align: right;
 }
 
 /* Change the color of links on hover */
