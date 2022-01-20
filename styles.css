@@ -105,5 +105,5 @@ font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 /* Add a color to the active/current link */
 .werk a:active {
 	text-decoration: none;
-	color: #FF760E;;
+	color: #FF760E;
 }
