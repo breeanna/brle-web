@@ -35,7 +35,7 @@ font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 /* Add a color to the active/current link */
 .nav a.active {
 	text-decoration: italic;
-	color: #FFFFFF;;
+	color: #FF760E;;
 }
 a {
 	font-size: 16px;
