@@ -74,11 +74,11 @@ font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .nav a.active {
-	text-decoration: italic;
+	font-style: italic;
 	color: #FF760E;;
 }
 .nav a:target {
-   text-decoration: italic;
+   font-style: italic;
 }
 
 /* work menu */
@@ -108,5 +108,5 @@ font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .werk a:target {
-   text-decoration: bold;
+   font-weight: bold;
 }
