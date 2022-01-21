@@ -62,7 +62,7 @@ div.main {
 
   text-decoration: none;
   font-size: 16px;
-	padding:14px;
+	padding:10px;
 font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
   text-align: right;
@@ -84,7 +84,7 @@ font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     top: 10px;
     right: 20px;
 	text-align: right;
-	  line-height: 1.4;
+	  line-height: 80%;
 
   }
 
