@@ -74,7 +74,7 @@ font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .nav a.active {
-	font-style: bold;
+	font-weight: bold;
 	color: #FF760E;;
 }
 
@@ -105,3 +105,12 @@ font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	color: #FF760E;
 }
 
+#IG:target {
+	font-weight: bold;
+}
+#IN:target {
+	font-weight: bold;
+}
+#PL:target {
+	font-weight: bold;
+}
