@@ -91,18 +91,16 @@ font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
   text-decoration: none;
   font-size: 14px;
-
+  line-height: 1.4;
 font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
  color: black;
   text-align: right;
 }
 
-/* Change the color of links on hover */
 .werk a:hover {
   color: #FFFFFF;
 }
 
-/* Add a color to the active/current link */
 .werk a:active {
 	text-decoration: none;
 	color: #FF760E;
