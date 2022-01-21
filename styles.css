@@ -77,8 +77,8 @@ font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	text-decoration: italic;
 	color: #FF760E;;
 }
-:target {
-   text-decoration: bold;
+.nav a:target {
+   text-decoration: italic;
 }
 
 /* work menu */
