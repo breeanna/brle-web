@@ -9,12 +9,12 @@
     <body>
 	   <div class="main">
 		    <div class="nav">
-		  <a class="active" href="work.html">Works</a>
-			<a href="index.html">CV</a>
+		  <a class="active" href="work">Works</a>
+			<a href="index">CV</a>
 			    <p><h2 >Brianna Leatherbury</h2></p>
 		   </div>
 	    <div class="werk">
-		     <em><p>Full portfolio upon request</p></em> 
+		     <em><p "style=font-size:10;" >Full portfolio upon request</p></em> 
 		    <p><a href="#IG">Insiders' Grave</a></p>
 		    <p><a href="#IN">Incoming</a></p>
 		    <p><a href="#PL">Plumbing</a></p>
