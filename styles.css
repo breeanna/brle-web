@@ -83,15 +83,14 @@ font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     position: fixed;
     top: 10px;
     right: 20px;
-	  text-align: right;
+	text-align: right;
+	  line-height: 1.4;
 
   }
-/* Style the links inside the navigation bar */
-.werk a {
 
+.werk a {
   text-decoration: none;
   font-size: 14px;
-  line-height: 1.4;
 font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
  color: black;
   text-align: right;
