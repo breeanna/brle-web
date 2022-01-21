@@ -104,6 +104,9 @@ font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .werk a.active {
-
 	color: #FF760E;
+}
+
+.werk a:target {
+   text-decoration: bold;
 }
