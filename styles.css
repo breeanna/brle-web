@@ -25,7 +25,7 @@ a:hover {
 	color: #FFFFFF;
 }
 
-a:active {
+a.active {
 	text-decoration: none;
 
 }
@@ -73,7 +73,7 @@ font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #FFFFFF;
 }
 
-.nav a:active {
+.nav a.active {
 	text-decoration: italic;
 	color: #FF760E;;
 }
@@ -100,7 +100,7 @@ font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #FFFFFF;
 }
 
-.werk a:active {
-	text-decoration: none;
+.werk a.active {
+
 	color: #FF760E;
 }
