@@ -1,12 +1,14 @@
 /*gen styles.*/
 
 Html{
+	Scroll-snap-type: y mandatory;
 	
 }
 
 Section {
-	Height: 100vh;
-
+	scroll-snap-align: start;
+	scroll-snap-stop: normal;
+		scroll-snap-margin: 70px;
 }
 
 body {
@@ -16,11 +18,13 @@ body {
     font-family: Times New Roman, Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", serif;
 	font-size: 17px;
 line-height: normal;
-	Width:100%;
-	Height: 100%
+	width: 100%;
+	overflow-x: hidden;
 	Margin: 0px;
+	padding: 0px;
 	color: #000;
 }
+
 
 .container {
   display: flex;
@@ -31,8 +35,6 @@ line-height: normal;
   padding: 0 0 0 20px;
 
 }
-
-
 
 #info {
 	width: 100%;
@@ -82,7 +84,7 @@ font-family: Times New Roman, Baskerville, "Palatino Linotype", Palatino, "Centu
 Height:30px;
 position: fixed;
 
-background: linear-gradient(0deg,rgb(242, 238, 235,0),rgb(242, 238, 235,1) 34%);
+background: linear-gradient(0deg,rgb(242, 238, 235,0),rgb(242, 238, 235,1) 20%);
 top: 0;
 left: 0;
 z-index: 90;
@@ -108,7 +110,7 @@ Padding: 22px;
 .gallery {
     width: 97.5%;
 	height:800px;
-	Margin: 0px 0px 30px 50px;
+	Margin: 0px 0px 30px 52px;
 Overflow: hidden;
 
 }
@@ -158,10 +160,8 @@ Opacity: 0%;
 }
 
 
-
 .project-info {
-
-Margin-left: 50px;
+Margin-left: 52px;
 Width: 1195px;
 Min-height:930px;
 
