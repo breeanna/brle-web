@@ -148,26 +148,31 @@ h1 {
     }
 
     body {
-        font-size: 40px;
+        font-size: 3vw;
     }
-
+    h1,
+    h2,
+    a {
+        font-size: 3vw;
+    }
 
     .nav {
         padding: 15px;
+        font-size: 3vw;
     }
 
     .nav a {
-        font-size: 40px;
+        font-size: 3vw;
     }
 
     .gallery {
         width: 100%;
-        margin: 20px;
+
     }
 
     .gallery-container {
         width: 100%;
-margin: 20px;
+  
     }
 
     .swiper-slide img {
@@ -179,11 +184,7 @@ margin: 20px;
     }
 
     
-    h1,
-    h2,
-    a {
-        font-size: 1vw;
-    }
+    
 
     .swiper-button-next,
     .swiper-button-prev {
