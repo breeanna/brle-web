@@ -148,22 +148,22 @@ h1 {
     }
 
     body {
-        font-size: 30px;
-        background-color:red;
+        font-size: 2vw;
+        background-color:blue;
     }
     h1,
     h2,
     a {
-        font-size: 30px;
+        font-size: 2vw;
     }
 
     .nav {
         padding: 15px;
-        font-size: 30px;
+        font-size: 2vw;
     }
 
     .nav a {
-        font-size: 30px;
+        font-size: 2vw;
     }
 
     .gallery {
