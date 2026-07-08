@@ -1,4 +1,5 @@
-/* General  Code*/
+
+/* New Test code General */
 
 html {
     scroll-snap-type: y mandatory;
@@ -29,10 +30,10 @@ body {
 .container {
     display: flex;
     justify-content: space-between;
-width: 100%;
+	width: 100%;
     max-width: 1200px;
     margin: 0;
-    padding: 0 0 0 20px;
+    padding: 0 20px 0 20px;
 }
 
 #info {
@@ -150,11 +151,6 @@ h1 {
         font-size: 16px;
     }
 
-    .container {
-        flex-direction: column;
-	width: 100%;
-        padding: 0 15px;
-    }
 
     .nav {
         padding: 15px;
@@ -182,13 +178,7 @@ margin: 20px;
         object-fit: contain;
     }
 
-    .project-info {
-        width: 100%;
-
-        margin: 20px ;
-        padding: 15px;
-    }
-
+    
     h1,
     h2,
     a {
@@ -200,3 +190,6 @@ margin: 20px;
         width: 25% !important;
     }
 }
+
+
+
