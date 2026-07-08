@@ -1,176 +1,202 @@
-/*gen styles.*/
+/* General  Code*/
 
-Html{
-	Scroll-snap-type: y mandatory;
-	
+html {
+    scroll-snap-type: y mandatory;
 }
 
-Section {
-	scroll-snap-align: start;
-	scroll-snap-stop: normal;
-		scroll-snap-margin: 70px;
+section {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    scroll-snap-margin: 70px;
 }
 
 body {
-
-  background-color: #F2EEEB;
-
-    font-family: Times New Roman, Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", serif;
-	font-size: 17px;
-line-height: normal;
-	width: 100%;
-	overflow-x: hidden;
-	Margin: 0px;
-	padding: 0px;
-	color: #000;
+    background: #F2EEEB;
+    font-family: "Times New Roman", Baskerville, "Palatino Linotype", Palatino, serif;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    color: #000;
 }
 
+* {
+    box-sizing: border-box;
+}
 
 .container {
-  display: flex;
-	justify-content: space-between;
-
-
-  margin: 0 0 0 10px;
-  padding: 0 0 0 20px;
-
+    display: flex;
+    justify-content: space-between;
+width: 100%;
+    max-width: 1200px;
+    margin: 0;
+    padding: 0 0 0 20px;
 }
-
-
 
 #info {
-	width: 100%;
-
+    width: 100%;
 }
 
-/*text styles.*/
+/* Typography */
+
 a {
-	color: #000;
-	font-size: 17px;
+    color: #000;
+    font-size: 17px;
+    text-decoration: none;
 }
-a:link {
-	text-decoration: none;
-	color: #000;
-}
-a:visited {
-	text-decoration: none;
-	color: #000;
-}
+
 a:hover {
-	text-decoration: none;
-	color: #FFFFFF;
+    color: #fff;
 }
 
-a.active {
-	text-decoration: bold;
-
+h1,
+h2 {
+    font-family: "Times New Roman", Baskerville, "Palatino Linotype", Palatino, serif;
+    font-size: 17px;
 }
-
 
 h1 {
-
-font-family: Times New Roman, Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", serif;
-	font-size: 17px;
-	font-style: italic;
+    font-style: italic;
 }
 
-h2 {
+/* Navigation */
 
-font-family: Times New Roman, Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", serif;
-	font-size: 17px;
-
-}
-
-/* navigation */
 .nav {
-Height:30px;
-position: fixed;
-
-background: linear-gradient(0deg,rgb(242, 238, 235,0),rgb(242, 238, 235,1) 20%);
-top: 0;
-left: 0;
-z-index: 90;
-width: 100%;
-
-Padding: 22px;
-
-
-  }
-
-
-.nav a:hover {
-  color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 22px;
+    z-index: 90;
+    background: linear-gradient(
+        0deg,
+        rgba(242,238,235,0),
+        rgba(242,238,235,1) 20%
+    );
 }
 
 .nav a.active {
-	font-weight: bold;
-	color: #000;;
+    font-weight: bold;
 }
 
-/*gallery*/
+/* Gallery */
 
 .gallery {
-    width: 97.5%;
-	height:800px;
-	Margin: 0px 0px 30px 52px;
-Overflow: hidden;
-
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
 }
+
 .gallery-container {
-    width: 2000px;
-left: 20px;
+    width: 100%;
 }
-
 
 .swiper {
     width: 100%;
-
 }
 
 .swiper-slide {
     display: flex;
-    justify-content: left;
-    align-items: left;
-	width: 100%;
-
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .swiper-slide img {
-    width: 1200px;
-	max-height:850px;
-    object-fit: cover;
+    width: 100%;
+    max-width: 1220px;
+    height: auto;
+    object-fit: contain;
 }
 
 .swiper-navigation {
-	
-	width:1200px;
-
-}
-.swiper-button-next,.swiper-button-prev{
-position: absolute;
-top: 0 !important;
-width: 600px !important;
-height: 100% !important;
-margin-top: 0;
-z-index: 10;
-cursor: pointer;
-display: flex;
-align-items: center;
-justify-content: center;
-color: grey !important;
-Opacity: 0%;
+    width: 100%;
 }
 
+.swiper-button-next,
+.swiper-button-prev {
+    position: absolute;
+    top: 0 !important;
+    width: 50% !important;
+    height: 100% !important;
+    margin-top: 0;
+    opacity: 0;
+}
+
+/* Project Info */
 
 .project-info {
-
-Margin-left: 52px;
-Width: 1195px;
-Min-height:930px;
-
+    width: 100%;
+    max-width: 1250px;
+    min-height: 950px;
+    margin: 0;
+    padding: 0 22px 0 42px;
 }
 
 
 
+/* ===========================
+   Mobile
+=========================== */
 
+@media (max-width: 768px) {
 
+    html {
+        scroll-snap-type: y mandatory;
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        flex-direction: column;
+	width: 100%;
+        padding: 0 15px;
+    }
+
+    .nav {
+        padding: 15px;
+    }
+
+    .nav a {
+        font-size: 16px;
+    }
+
+    .gallery {
+        width: 100%;
+        margin: 20px;
+    }
+
+    .gallery-container {
+        width: 100%;
+margin: 20px;
+    }
+
+    .swiper-slide img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        max-height: none;
+        object-fit: contain;
+    }
+
+    .project-info {
+        width: 100%;
+
+        margin: 20px ;
+        padding: 15px;
+    }
+
+    h1,
+    h2,
+    a {
+        font-size: 16px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        width: 25% !important;
+    }
+}
