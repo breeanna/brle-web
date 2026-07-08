@@ -160,7 +160,7 @@ h1 {
 
 /* Slide into the center */
 .hover-text:hover + .tease {
-    transform: translate(-25%, -50%);
+    transform: translate(-50%, -50%);
     opacity: 1;
 }
 
