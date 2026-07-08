@@ -144,11 +144,11 @@ h1 {
 @media (max-width: 768px) {
 
     html {
-        scroll-snap-type: y mandatory;
+        scroll-snap-type: y proximity;
     }
 
     body {
-        font-size: 22px;
+        font-size: 4vw;
     }
 
 
@@ -157,7 +157,7 @@ h1 {
     }
 
     .nav a {
-        font-size: 22px;
+        font-size: 4vw;
     }
 
     .gallery {
@@ -182,7 +182,7 @@ margin: 20px;
     h1,
     h2,
     a {
-        font-size: 22px;
+        font-size: 4vw;
     }
 
     .swiper-button-next,
