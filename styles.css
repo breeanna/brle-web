@@ -148,7 +148,7 @@ h1 {
     }
 
     body {
-        font-size: 4vw;
+        font-size: 23;
     }
 
 
@@ -157,7 +157,7 @@ h1 {
     }
 
     .nav a {
-        font-size: 4vw;
+        font-size: 23;
     }
 
     .gallery {
@@ -182,7 +182,7 @@ margin: 20px;
     h1,
     h2,
     a {
-        font-size: 4vw;
+        font-size: 23;
     }
 
     .swiper-button-next,
