@@ -148,21 +148,21 @@ h1 {
     }
 
     body {
-        font-size: 3vw;
+        font-size: 30px;
     }
     h1,
     h2,
     a {
-        font-size: 3vw;
+        font-size: 30px;
     }
 
     .nav {
         padding: 15px;
-        font-size: 3vw;
+        font-size: 30px;
     }
 
     .nav a {
-        font-size: 3vw;
+        font-size: 30px;
     }
 
     .gallery {
