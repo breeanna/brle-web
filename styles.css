@@ -62,6 +62,11 @@ h1 {
     font-style: italic;
 }
 
+
+.info-indent {
+  text-indent: 50px;
+}
+
 /* Navigation */
 
 .nav {
